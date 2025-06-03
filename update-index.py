@@ -70,7 +70,7 @@ html_content += '''
 </body>
 </html>'''
 
-with open('index.html', 'w') as f:
+with open('public/index.html', 'w') as f:
     f.write(html_content)
 
 print("Updated index.html with", len(posts), "posts")

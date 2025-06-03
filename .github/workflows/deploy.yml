@@ -12,10 +12,5 @@ jobs:
       with:
         api_token: ${{ secrets.NEOCITIES_API_KEY }}
         cleanup: false
-        dist_dir: .
-        protected_files: |
-          *.py
-          *.sh
-          .github/**
-          INSTRUCTIONS.md
-          .gitignore
+        dist_dir: public
+        

@@ -7,6 +7,8 @@ Category List:
 - miscellany
 
 
+Run python3 update-index.py to update index.html
+
 Git: 
 
 git add .

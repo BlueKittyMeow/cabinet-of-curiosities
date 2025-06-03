@@ -10,7 +10,7 @@ TIME=$(date '+%Y-%m-%d %H:%M')
 FILENAME="${DATE}-$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g').html"
 
 # Create the post file
-cat > "posts/$FILENAME" << EOF
+cat > "public/posts/$FILENAME" << EOF
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,5 +30,5 @@ cat > "posts/$FILENAME" << EOF
 </html>
 EOF
 
-echo "Created: posts/$FILENAME"
+echo "Created: public/posts/$FILENAME"
 echo "Don't forget to update index.html!"
