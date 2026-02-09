@@ -1,0 +1,248 @@
+/* Cabinet of Curiosities - Victorian Naturalist Theme */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  line-height: 1.7;
+  color: #2c2416;
+  background: linear-gradient(to bottom, #f9f6f0, #f5f1e8);
+  min-height: 100vh;
+}
+
+a {
+  color: #5a4d3a;
+  text-decoration: none;
+  border-bottom: 1px dotted #b5a68a;
+}
+
+a:hover {
+  color: #2c2416;
+  border-bottom-style: solid;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d4c9b5;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  font-variant: small-caps;
+}
+
+header h1 a {
+  border-bottom: none;
+}
+
+header .tagline {
+  font-size: 14px;
+  color: #7a6f5d;
+  font-style: italic;
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  flex-wrap: wrap;
+}
+
+nav a.active {
+  color: #2c2416;
+  border-bottom: 2px solid #5a4d3a;
+  font-weight: bold;
+}
+
+/* Cards / Sections */
+.card {
+  background: #fffef9;
+  border: 1px solid #d4c9b5;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  margin-top: 0;
+  color: #5a4d3a;
+  border-bottom: 1px solid #e5dfd3;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.card-content {
+  padding-top: 20px;
+}
+
+/* Project entries */
+.project {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-left: 2px solid #e5dfd3;
+}
+
+.project:last-child {
+  margin-bottom: 0;
+}
+
+.project h3 {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0 0 5px 0;
+}
+
+.project .status {
+  display: inline-block;
+  background: #f0ebe0;
+  padding: 2px 8px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #7a6f5d;
+  margin-bottom: 5px;
+}
+
+.project .status.complete {
+  background: #e8e4d9;
+}
+
+.project .status.published {
+  background: #d9e4d9;
+}
+
+.project p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Field notes list */
+.field-note {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.field-note:last-child {
+  margin-bottom: 0;
+}
+
+.field-note .date {
+  font-size: 12px;
+  color: #999;
+  font-family: monospace;
+}
+
+.field-note a {
+  font-style: italic;
+}
+
+/* Currently section */
+.currently p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.currently p:last-child {
+  margin-bottom: 0;
+}
+
+.currently strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Blog post */
+.post-meta {
+  font-size: 13px;
+  color: #7a6f5d;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5dfd3;
+}
+
+.post-content {
+  font-size: 15px;
+}
+
+.post-content p {
+  margin: 0 0 1.5em 0;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 2em 0;
+  border: 1px solid #d4c9b5;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.post-content .caption {
+  font-size: 13px;
+  font-style: italic;
+  color: #7a6f5d;
+  text-align: center;
+  margin-top: -1.5em;
+  margin-bottom: 2em;
+}
+
+/* See all link */
+.see-all {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.see-all a {
+  color: #7a6f5d;
+}
+
+/* Back link */
+.back-link {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e5dfd3;
+  font-size: 13px;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 12px;
+  color: #a99f8d;
+  font-style: italic;
+}
+
+/* Intro (no header) */
+.intro p {
+  font-size: 15px;
+  margin: 0 0 15px 0;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+}
